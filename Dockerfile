@@ -1,9 +1,8 @@
-FROM daocloud.io/node:8.4.0-onbuild
+FROM daocloud.io/node:8.4.0
 
 RUN mkdir /app
 ADD ./ /app
 WORKDIR /app
-RUN npm install yarn -g
 RUN yarn install
 RUN npm run build
 

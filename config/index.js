@@ -4,6 +4,6 @@ export default {
 		    secret : "chinasoft"
     },
     db : {
-        url : 'mongodb://minioa-mongo-18009258912.v2.tenxapp.com:22633/users'
+        url : 'mongodb://mongodb:27017/users'
     }
 }
